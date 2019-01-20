@@ -20,7 +20,7 @@ namespace Iterative_Statement
 
                 int userint = int.Parse(userinput);
 
-                // This code converts what the user entere into an int value
+                // This code converts what the user entered into an int value
 
                 if ((userint >= 1) && (userint <= 100))
                 {
@@ -31,6 +31,8 @@ namespace Iterative_Statement
                     {
                         Console.WriteLine("This is the current integer value in the loop " + userint.ToString());
                         userint--;
+
+                        // This code performs the while loop
                     }
 
                     Console.WriteLine("Press any key to exit the program");
@@ -41,6 +43,8 @@ namespace Iterative_Statement
                     Console.WriteLine("Between 1 and 100 please");
                     Console.WriteLine("The program will now close");
                     Console.ReadKey(true);
+
+                    // This message appears when a value that is not between 1 and 100 is entered
                 }
             }
             catch
@@ -48,6 +52,8 @@ namespace Iterative_Statement
                 Console.WriteLine("Please enter an integer value");
                 Console.WriteLine("The program will now close.");
                 Console.ReadKey(true);
+
+                // This message appears when something besides an integer is entered
             }
         }
     }

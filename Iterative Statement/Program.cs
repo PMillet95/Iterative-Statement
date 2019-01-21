@@ -1,7 +1,7 @@
 ﻿/*
   Author: Peter Millet
   Date: 01/19/2019
-  Comments: A program to show Iterative Statement
+  Comments: A program to show an Iterative Statement
 */
 
 using System;
@@ -20,7 +20,7 @@ namespace Iterative_Statement
 
                 int userint = int.Parse(userinput);
 
-                // This code converts what the user entered into an int value
+                // This code converts what the user entered into an int value if appropriate
 
                 if ((userint >= 1) && (userint <= 100))
                 {
